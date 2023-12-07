@@ -22,8 +22,14 @@ nav {
     align-items: center;
 }
 
-nav img {
+.logo-leo a {
     width: 150px;
+    list-style: none;
+    text-decoration: none;
+    flex: 1;
+    color: white;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 25pt;
 }
 
 .nav-links {
@@ -97,7 +103,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: rgba(128, 128, 128, 0.569);
+        background: rgb(128, 128, 128);
         height: 100vh;
         width: 200px;
         top: 0;
