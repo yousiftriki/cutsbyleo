@@ -149,7 +149,7 @@ nav .fa{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(images/LeoCuts.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(images/IMG_0971.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -160,6 +160,16 @@ nav .fa{
     color: white;
     text-shadow: black;
 
+}
+
+.logo-leo a {
+    width: 150px;
+    list-style: none;
+    text-decoration: none;
+    flex: 1;
+    color: white;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 25pt;
 }
 
 .about-us{
