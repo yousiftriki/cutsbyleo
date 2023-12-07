@@ -123,10 +123,13 @@ nav .fa{
         padding: 30px;
     }
 }
+
+/*----footer---*/
+
 .footer{
     width: 100%;
     text-align: center;
-    padding: 750px 0;
+    padding: 680px 0;
     color: white;
 }
 .icons .fab{
@@ -138,4 +141,120 @@ nav .fa{
     cursor: pointer;
 }
 
+@media(max-width: 700px){
 
+}
+
+/*-----about us-----*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(images/IMG_0971.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.sub-header h1{
+    margin-top: 100px;
+    color: white;
+    text-shadow: black;
+
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: black;
+}
+
+.about-us h1{
+    padding-top: 0;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+about-us p{
+    padding: 15px 0 25px;
+    color: black;
+    text-align: center;
+}
+.footer2{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    color: black;
+}
+.icons .fab{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.fa-instagram{
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+
+}
+/*-----Contact----*/
+
+.sub-header2{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(Images/LeoCuts.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.sub-header2 h1{
+    margin-top: 100px;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col p{
+    margin-bottom: 40px;
+    padding: 0;
+}
+.contact-col h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
