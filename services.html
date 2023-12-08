@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/vecteezy_scissors-icon-vector-for-web-presentation-logo_3808404.jpg">
+    <title>CutsByLeo</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav> 
+                <div class="logo-leo">
+                <a href="index.html">Cuts By Leo</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Services</h1>
+    </section>
+    
+<!---Services---->
+
+<section class="services">
+
+    <div class="row">
+        <div class="service-col">
+            <h3>Hair Cut</h3>
+            <p>Starting at $60.00 . 40 minutes</p>
+            <a href="https://squareup.com/appointments/book/oqxaqnsd7sxbhj/D06SF5B451Y7S/date"><img class="services" src="Images/cut2.png"></a>
+        </div>
+        <div class="service-col">
+            <h3>Hair Cut + Beard</h3>
+            <p>Starting at $65.00 . 1 hour</p>
+            <a href="https://squareup.com/appointments/book/oqxaqnsd7sxbhj/D06SF5B451Y7S/date"><img class="services" src="Images/cut3.png"></a>
+            </div>
+            </div>
+        <div class="row">
+        <div class="service-col">
+            <h3>Hair, beard, & eyebrows</h3>
+            <p>Starting at $70.00 . 1 hour</p>
+            <a href="https://squareup.com/appointments/book/oqxaqnsd7sxbhj/D06SF5B451Y7S/date"><img class="services" src="Images/cut4.png"></a>
+        </div>
+        <div class="service-col">
+            <h3>Last minute</h3>
+            <p>$100.00 . 30 minutes <br> (Text Me)</p>
+            <a href="https://squareup.com/appointments/book/oqxaqnsd7sxbhj/D06SF5B451Y7S/date"><img class="services" src="Images/cut5.png"></a>
+        </div>
+    </div>
+
+</section>
+
+
+<!----footer---->
+<section>
+        <div class="footer2">
+            <div class="icons"></div>
+            <footer>
+                <p>&copy; 2023 CutsByLeo. All Rights Reserved. <a href="https://www.instagram.com/cutsbyleo/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- JavaScript toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
