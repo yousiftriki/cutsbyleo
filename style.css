@@ -151,7 +151,7 @@ nav .fa{
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(images/cut1.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     text-align: center;
 }
 
