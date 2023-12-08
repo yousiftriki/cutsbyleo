@@ -121,6 +121,9 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    .logo-leo a {
+        font-family: 'Mr Dafoe';
+        }
 }
 
 /*----footer---*/
