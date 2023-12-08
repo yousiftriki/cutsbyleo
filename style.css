@@ -143,8 +143,7 @@ nav .fa{
     cursor: pointer;
 }
 
-@media(max-width: 700px){
-
+@media(max-width: 700px){     
 }
 
 /*-----about us-----*/
@@ -212,7 +211,12 @@ about-us p{
 }
 
 @media(max-width: 700px){
-
+    .logo-leo a {
+        font-family: 'Mr Dafoe';
+        }
+    .sub-header url {
+            background-image: linear-gradient(rgba(4, 9, 30, 0.525),rgba(4, 9, 30, 0.525)),url(images/cut1.png);
+            }
 }
 /*-----Contact----*/
 
